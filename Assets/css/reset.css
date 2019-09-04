@@ -102,9 +102,9 @@ audio:not([controls]) {
 
 
 html {
-    font-size: 100%; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+    font-size: 100%; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
 }
 
 
@@ -120,8 +120,8 @@ a:hover {
 
 
 img {
-    border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic; /* 2 */
+    border: 0; 
+    -ms-interpolation-mode: bicubic; 
 }
 
 
@@ -146,10 +146,10 @@ fieldset {
 
 
 legend {
-    border: 0; /* 1 */
+    border: 0; 
     padding: 0;
-    white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
+    white-space: normal; 
+    *margin-left: -7px; 
 }
 
 
@@ -157,10 +157,10 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
-    margin: 0; /* 2 */
-    vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
+    font-size: 100%; 
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle;
 }
 
 
@@ -179,12 +179,12 @@ select {
 
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"], 
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
-    *overflow: visible;  /* 4 */
+    -webkit-appearance: button; 
+    cursor: pointer; 
+    *overflow: visible;
 }
 
 
@@ -193,27 +193,20 @@ html input[disabled] {
     cursor: default;
 }
 
-/**
- * 1. Address box sizing set to content-box in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
- * 3. Remove excess padding in IE 7.
- *    Known issue: excess padding remains in IE 6.
- */
-
 input[type="checkbox"],
 input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-    *height: 13px; /* 3 */
-    *width: 13px; /* 3 */
+    box-sizing: border-box; 
+    padding: 0; 
+    *height: 13px; 
+    *width: 13px; 
 }
 
 
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+    -webkit-appearance: textfield; 
     -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
+    -webkit-box-sizing: content-box; 
     box-sizing: content-box;
 }
 
@@ -224,9 +217,6 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
-/**
- * Remove inner padding and border in Firefox 3+.
- */
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -237,8 +227,8 @@ input::-moz-focus-inner {
 
 
 textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
+    overflow: auto; 
+    vertical-align: top; 
 }
 
 
