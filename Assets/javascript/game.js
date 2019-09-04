@@ -1,19 +1,13 @@
-let WordArray = ["Dead", "zombies", "Walking", "evolution", "Omega"]
-let htmlGuesses = document.getElementById("Letters")
-let guesses = 13;
+// array of words
+const words = ["Dead", "zombies", "Walking", "evolution", "Omega"]
 
-document.onkeyup = function (event) {
-    
-var guess = event.key;
+// how do you make underscores appear under words based on length 
+//random word generator
+//retrieve users guess and check to see if the guess is correct 
+// if correct push to right array? 
+// if wrong push to wrong array. 
 
-guesses = guesses - 1;
-
-htmlGuesses.textContent = guesses;
-
-document.getElementById("guesses").innerHTML = guesses;
-
- }
-
+ 
 
 
 
