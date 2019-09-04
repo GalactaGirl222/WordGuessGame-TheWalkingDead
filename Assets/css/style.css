@@ -1,0 +1,35 @@
+h1{
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 300px;
+    width: 85%;
+}
+
+.underscores {
+    border: 3px solid black;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 85%;
+}
+
+.numberOfGuessesRemaining{
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 85%;
+}
+
+.LettersAlreadyGuessed{
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 85%;
+}
